@@ -1,0 +1,48 @@
+<div class="show-mobile">
+  <div>
+    <button (click)="toggleMenu()">
+      <img src="./assets/svg/icon_menu.svg" alt="menu">
+    </button>
+    <a href="" class="logop">
+      <img src="./assets/svg/logo_yard_sale.svg" alt="logo">
+    </a>
+    <a href="" class="car">
+      <img src="./assets/svg/icon_shopping_cart.svg" alt="logo">
+    </a>
+  </div>
+  <div class="side-menu" [class.active]="activeMenu">
+    <button (click)="toggleMenu()">Close</button>
+    <ul>
+      <li><a href="">All</a></li>
+      <li><a href="">Clothes</a></li>
+      <li><a href="">Electronics</a></li>
+    </ul>
+  </div>
+</div>
+<div class="hide-mobile">
+  <div>
+    <nav>
+      <a class="logo" href="">
+        <img src="./assets/svg/logo_yard_sale.svg" alt="logo">
+      </a>
+      <ul>
+        <li><a href="" class="all-link">E-commerce,venta de garage</a></li>
+        <li><a href="" class="all-link">Ropa P/Mujer/Hombre/</a></li>
+        <li><a href="" class="all-link">Electronicos</a></li>
+        <li><a href="" class="all-link">Juguetes</a></li>
+        <li><a href="" class="all-link">Muebles</a></li>
+        <li><a href="" class="all-link">Otros</a></li>
+        </ul>
+  
+    </nav>
+    <div class="info">
+      <div class="account">dandvstore@outlook.Es Portafolio</div>
+      <div>
+        <li><a href="" class="r-link"></a></li>
+          <img src="./assets/svg/icon_shopping_cart.svg" alt="logo">
+      </div>
+    </div>
+  </div>
+</div>
+
+

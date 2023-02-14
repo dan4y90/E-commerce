@@ -1,0 +1,66 @@
+
+.footer-links{
+  margin-left: 10px;
+}
+
+
+.professional-footer {
+  background-color: #aca0af;
+  padding: 5px 0px;
+  margin-top: 20px;
+
+}
+
+.professional-footer h4 {
+  color: rgb(25, 25, 25);
+  font-weight:bold;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.professional-footer .contact-info li,
+.professional-footer .footer-links li,
+.professional-footer .social-icons li {
+  margin-bottom: 20px;
+}
+
+.professional-footer .contact-info i,
+.professional-footer .footer-links i,
+.professional-footer .social-icons i {
+  margin-right: 10px;
+  color: rgb(47, 45, 45);
+}
+
+.professional-footer .copyright {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.professional-footer .copyright p {
+  margin: 2;
+  font-size: 19px;
+}
+
+
+
+
+
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url(./styles/reset.scss);
+
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.products--grid {
+  app-img {
+    img {
+      border-radius: 10px;
+      box-shadow: 5px 5px 10px rgb(116, 87, 124);
+      margin-left: 5px;
+    }
+  }
+}
